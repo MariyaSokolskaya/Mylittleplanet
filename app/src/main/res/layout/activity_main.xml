@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raketa"
+    android:orientation="vertical"
+    tools:context="com.example.mylittleplanet.MainActivity">
+
+    <LinearLayout
+        android:layout_width="248dp"
+        android:layout_height="495dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SolarSystem"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <Button
+            android:id="@+id/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Let's go"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="231dp" />
+    </LinearLayout>
+
+</LinearLayout>
